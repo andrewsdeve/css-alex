@@ -13,10 +13,19 @@ body{
 
 .box1{
     background: steelblue;
-    width: 200px;
+    /* margin-top:50px ;
+    margin-bottom: 40px;
+    margin-right: 25px;
+    margin-left: 30px;
+
+    margin: top rigth botton left;
+    */
+    /* margin:50px 30px 25px 30px; */
+    /* margin: 0 auto; */
     
 }
 
 .box2{
     background: tomato;
+    margin-top: 40px;
 }
