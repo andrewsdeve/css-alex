@@ -33,6 +33,30 @@ Desendencia en CSS: definene a que elementos se aplicaran estilos que se hallan 
 
 /*Selector UNIVERSAL*/
 
-*{
-    
+/* *{
+    color: black;
+} */
+
+/*Selectores de Atributo*/
+[href]{
+   text-decoration: none;
 }
+
+[href="https://alexgdesing.com/inicio"]{
+   color: darkred;
+}
+
+[href^="hsttps"]{
+   color:olivedrab;
+}
+
+[href$=".org"]{
+   background-color: steelblue;
+   color: whitesmoke;
+}
+
+[href*="alex"]{
+   background-color: darksalmon;
+}
+
+
