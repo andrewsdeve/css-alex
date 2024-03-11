@@ -3,6 +3,31 @@ h2,h3{
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.contenedor p{
+/*Selector Desendencia*/
+/* .contenedor p{
    color: lightcoral;
+} */
+
+/*Selector Hijo Directo*/
+
+.contenedor>p{
+   color: lightcoral;
+}
+
+.contenedor a{
+   text-decoration: none;
+   color: firebrick;
+}
+
+.contenedor>a{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+h2+p{
+   color: gold;
+}
+
+h3~p{
+   color: indigo;
 }
