@@ -14,14 +14,16 @@ body{
 
 .box1{
     background: steelblue;
-    /* margin:  top right bottom left; */
+    border: 1px solid transparent;
+     /* margin:  top right bottom left; */
     /* margin: 50px 30px 25px 30px; */
-    margin: 40px 80px;
+    /* margin: 0 auto; */
     
 }
 
 .box2{
     background: tomato;
+    margin-top: 40px;
 
 
 }
