@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background: steelblue;
+    /* box-shadow: h-offset v-offset blur spread color; */
+    box-shadow: 100px 100px 0 0 crimson,
+                100px 0 darkblue,
+                0 100px darkgoldenrod;
+    
+}
