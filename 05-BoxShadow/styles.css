@@ -8,6 +8,13 @@
     display: block;
     width: 400px;
     margin: 30px auto;
+    /* box-shadow: 8px 8px 12px rgba(44, 80, 197, 0.525); */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .75 ) ;
+    
+}
+
+body{
+    background: #fafafa;
 }
 
 .box{
