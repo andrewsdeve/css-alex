@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(./img/oriental-tiles.png);
+    
 }
 
 .container{
@@ -16,8 +16,11 @@ body{
     background-color: rgb(100, 100, 250);
     /* background-image: url(../05-BoxShadow/Spy_SinFondo.png), url(./img/sun-regular-24.png); */
 
-    background-image: url(./img/cloud-solid-48.png);
+    background-image: url(../05-BoxShadow/Spy_SinFondo.png);
     background-repeat:no-repeat;
+    background-position: top center ;
+    background-position: center;
+    background-size: cover;
 
 
 
