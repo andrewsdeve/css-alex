@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/oriental-tiles.png);
+}
+
+.container{
+    width: 70%;
+    height: 300px;
+    /* background: rgb(100, 100, 250); */
+    margin: 30px auto;
+    background-color: rgb(100, 100, 250);
+    /* background-image: url(../05-BoxShadow/Spy_SinFondo.png), url(./img/sun-regular-24.png); */
+
+    background-image: url(./img/cloud-solid-48.png);
+    background-repeat:no-repeat;
+
+
+
+
+
+
+
+
+
+
+
+}
