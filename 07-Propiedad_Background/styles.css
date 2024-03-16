@@ -5,7 +5,8 @@
 }
 
 body{
-    
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .container{
@@ -32,4 +33,32 @@ body{
 
 
 
+}
+
+.atachment{
+    width: 40%;
+    background-image: url(./img/img-hero.png) ;
+    height: 400px;
+    margin-top: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+
+.space{
+    height: 3000px;
 }
