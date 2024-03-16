@@ -19,17 +19,6 @@
     background-position: top center ;
     background-position: center;
     background-size: cover;
-
-
-
-
-
-
-
-
-
-
-
 }
 
 .atachment{
@@ -40,9 +29,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
-
 
 }
 
@@ -60,4 +46,16 @@
 
 .space{
     height: 3000px;
+}
+
+.card{
+    width: 300px;
+    padding: 0 0  30px;
+    margin: 30px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 9px 9px 22px 0px rgba(0, 0, 0, 0.75);
 }
