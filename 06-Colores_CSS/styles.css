@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 45px 0;
+    text-align: center;
+    color: rgba(157, 14, 14, 0.345);
+    background: rgba(38, 0, 255, 0.295);
+
+
+}
+
+.title{
+
+}
+
