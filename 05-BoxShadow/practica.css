@@ -66,3 +66,20 @@ body{
     margin-top: 20px;
 
 }
+.goku{
+    display: block;
+    width: 350px;
+    margin: 30px auto;
+    filter: drop-shadow(0 0 50px gold);
+    -webkit-filter: drop-shadow(0 0 20px gold);
+}
+
+.spy{
+    filter: drop-shadow(0 0 20px crimson);
+    -webkit-filter: drop-shadow(0 0 20px crimson);
+}
+.nike{
+    filter: drop-shadow(0 0 30px #2E3C65);
+    -webkit-filter: drop-shadow(0 0 30px #2E3C65);
+    width: 100px;
+}
