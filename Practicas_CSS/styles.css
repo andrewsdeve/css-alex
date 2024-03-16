@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.atachment{
+    width: 100%;
+    height: 100vh;
+    padding: 0.1px;
+    background-image: url(./img/simple-nike-logo-wallpaper-preview.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size:cover;
+    object-fit: cover;
+}
+
+.title{
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+
+.space{
+    height: 3000px;
+}
