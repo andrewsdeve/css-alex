@@ -7,6 +7,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: white;
+    height: 80%;
 }
 
 .opinion{
@@ -28,17 +29,29 @@ body{
     /* max-width: 400px;
     max-height: 400px;
     min-width: 200px;
-    min-height: 200px; */
-    width: 95%;
+    min-height: 200px;
+    width: 70%;
     height:300px;
+   
+    margin: 30px auto; */
+
     background: steelblue;
-    margin: 30px auto;
+    width: 10vw;
+    height: 10vh;
 }
+
+/*
+viewport width vm
+viewport heigth vh
+
+
+
+
+*/
 
 .children{
     width: 90%;
-    height: 50px;
-    background: crimson;
+    height: 50%;
 }
 
 
