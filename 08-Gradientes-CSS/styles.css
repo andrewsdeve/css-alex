@@ -9,5 +9,25 @@
     height: 400px;
     margin: 30px auto;
     background: steelblue;
+    /* background-image: 
+        linear-gradient(direction,color stop, color stop); */
+    background-image: linear-gradient(crimson 30%, pink 80%);
+}
+
+.header{
+    padding: 0.1px;
+    height: 650px;
+    background-image: linear-gradient(#dc143c79,#00008b7c ), url(./wework.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 270px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
