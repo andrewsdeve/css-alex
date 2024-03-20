@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.galeria{
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.tituloGaleria{
+    font-size: 60px;
+    margin: 30px auto;
+    color: #603F8B;
+    border-bottom: 3px solid #FD49A0;
+}
+.container{
+    font-size: 0;
+}
+
+.imgContainer{
+    width: 30%;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px rgba(0,0,0,.7);
+
+}
+
