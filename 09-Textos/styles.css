@@ -7,9 +7,82 @@
 }
 
 body{
-    background: darkturquoise;
     font-family: "Raleway", sans-serif;
+    
 }
+
+/*PRIMERA PRACTICA*/
+
+.card{
+    background-image:
+        linear-gradient(#2a265faf,#2a265f69), url(./woman_working.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 400px;
+    color: white;
+    margin: 40px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    box-shadow:3px 3px 6px rgba(0,0,0, .5) ;
+}
+
+.title{
+    font-size: 30px;
+    border-bottom: 3px solid #fff;
+    padding: 7px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.text{
+    font-weight: 100;
+    margin-bottom: 15px;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cta{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid  white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container{
     background: #fff;
@@ -42,13 +115,13 @@ img{
 
 }
 
-.bold{
+/* .bold{
     color: blue;
     font-weight: bold;
     font-size: 20px;
     font-weight: 400;
 
-}
+} */
 
 .enlace{
     color: crimson;
@@ -58,4 +131,4 @@ img{
     padding: 10px 25px;
 }
 
-/*PRIMERA PRACTICA*/
+
