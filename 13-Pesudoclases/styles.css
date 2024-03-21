@@ -1,3 +1,7 @@
+:root{
+    background: steelblue;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -84,6 +88,10 @@
     padding: 30px;
 }
 
+.form:focus-within{
+    background:rgba(255, 166, 0, 0.371);
+}
+
 .form__title{
     text-align: center;
     margin-bottom: 20px;
@@ -99,10 +107,38 @@ input[type="email"]{
     padding: 12px 5px;
     margin-bottom: 20px;
     border: none;
-    outline: none ;
+    /* outline: none ; */
+
 
 }
 
 input[type="checkbox"]{
     display: inline-block;
+}
+
+input:focus{
+    background: rgba(220, 20, 60, 0.171);
+}
+
+
+input[type="checkbox"]:checked + label{
+    color: black;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+h3:not(.title){
+    color: crimson;
+
+}
+h3:not(:hover){
+    text-decoration: line-through;
 }
