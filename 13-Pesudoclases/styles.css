@@ -28,5 +28,16 @@
 }
 
 .enlace:hover{
-    text-decoration: underline;
+    padding: 40px 20px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+
+}
+
+.enlace:active{
+    background: steelblue;
+    color: #fff;
 }
