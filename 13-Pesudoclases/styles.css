@@ -24,5 +24,9 @@
 
 .enlace:visited{
     background: crimson;
-    
+
+}
+
+.enlace:hover{
+    text-decoration: underline;
 }
