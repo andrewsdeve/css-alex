@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* los pseudoelementos tambien tienen expecificidad*/
+
+
+.enlace{
+    display: block;
+    background: tomato;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 4px solid #ebd1db;
+
+}
+
+.enlace:link{
+    background: yellow;
+    color: #000;
+}
+
+.enlace:visited{
+    background: crimson;
+    
+}
