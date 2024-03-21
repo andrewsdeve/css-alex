@@ -32,4 +32,5 @@ body{
 
 .box:only-of-type{
     background: tomato;
+    font-size: 23px;
 }
