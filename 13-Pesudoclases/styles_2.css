@@ -30,7 +30,40 @@ body{
 
 /*Filtraremos elementos de acuerdo a su tipo*/
 
-.box:only-of-type{
+/* .box:only-of-type{
     background: tomato;
     font-size: 23px;
+} */
+
+/* .box:first-of-type{
+    background: tomato;
+} */
+
+/* box:last-of-type{
+    background: tomato;
+} */
+
+/* .box:nth-last-of-type(1){
+    background: tomato;
+} */
+
+/* .box:only-child{
+    background: crimson;
+} */
+
+/* p:first-child{
+    background: tomato;
+} */
+
+/* .div:last-child{
+    background: crimson;
+} */
+
+/* .div:nth-child(4){
+    background: crimson;
+
+} */
+
+.container :nth-last-child(1){
+    background: crimson;
 }
