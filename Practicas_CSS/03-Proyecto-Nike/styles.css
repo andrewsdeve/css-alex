@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(to right, #43e97a80 0%, #38f9d67b 100%), url(./img/nk1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: .1px;
+    position: relative;
+    
+}
+
+.container-text{
+    text-align: center;
+    margin-top: 150px;
+    color:   #8e44ad ;
+}
+
