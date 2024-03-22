@@ -1,4 +1,4 @@
-*{
+*, ::after, ::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,24 +19,24 @@ body{
 }
 
 .card__title{
-    border-bottom: 3px solid salmon ;
     padding-bottom: 7px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-*::selection{
+/* *::selection{
     background: crimson;
     color: white;
-    /* text-shadow: 0 0 6px black; */
-}
+    text-shadow: 0 0 6px black;
+} */
 
-p::first-line{
+/* p::first-line{
     color: crimson;
     font-weight: bold;
     font-size: 3rem;
-}
+} */
 
-.card__title::first-letter{
+/* .card__title::first-letter{
     font-size: 2rem;
     line-height: 3rem;
     letter-spacing: 20px;
@@ -54,4 +54,66 @@ input[type="text"]{
 
 input[type="text"]::placeholder{
     color: yellow;
+} */
+
+/*
+<elemento>
+    ::before
+   Contenido
+    ::after
+</elemento>
+*/
+
+/* .card__text::before{
+    content: "Hola ";
+}
+
+.card__text::after{
+    content: " Martinez";
+} */
+
+.card__title::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: salmon;
+    padding: 2px;
+    display: block;
+}
+
+.card__title::after{
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: salmon;
+    display: block;
+}
+
+ul{
+    counter-reset: contador;
+
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+li::before{
+    content: counter(contador) ;
+    counter-increment: contador;
+    background: salmon;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 4px;
 }
