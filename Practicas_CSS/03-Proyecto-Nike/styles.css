@@ -8,11 +8,12 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    min-height: 200vh;
 }
 
 .hero{
     height: 100vh;
-    background-image: linear-gradient(to right, #43e97a80 0%, #38f9d67b 100%), url(./img/nk1.jpg);
+    background-image: linear-gradient(180deg, #a175474f 20%, #bd81c69d 80%), url(./img/nk1.jpg);
     background-position: center;
     background-size: cover;
     padding-top: .1px;
@@ -22,7 +23,40 @@ body{
 
 .container-text{
     text-align: center;
-    margin-top: 150px;
-    color:   #8e44ad ;
+    margin-top: 250px;
+    color:  #CFD573;
 }
 
+.hero-title{
+    font-size: 8em;
+}
+
+.hero-copy{
+    font-size: 5em;
+
+}
+
+.hero-cta{
+    background: #BD81C6;
+    text-decoration: none;
+    color: #CFD573;
+    padding: 15px 25px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-weight: bold;
+    display: inline-block;
+}
+.hero-cta:hover{
+    background:#CFD573;
+    color: #BD81C6 ;
+}
+
+.hero-wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
