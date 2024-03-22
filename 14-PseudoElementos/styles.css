@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 300px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: -20px -20px 0 0 #fb968b;
+    border-radius: 10px;
+}
+
+.card__title{
+    border-bottom: 3px solid salmon ;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+
+*::selection{
+    background: crimson;
+    color: white;
+    /* text-shadow: 0 0 6px black; */
+}
+
+p::first-line{
+    color: crimson;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card__title::first-letter{
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 20px;
+}
+
+input[type="text"]{
+    margin-left: 20px;
+    padding: 15px 3px;
+    background: crimson;
+    color: #fff;
+    border: none;
+    border-bottom: 4px solid white;
+    outline: none;
+}
+
+input[type="text"]::placeholder{
+    color: yellow;
+}
