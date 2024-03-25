@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color1:yellow;
+    --color2:orange;
+    --colorAzul:blue;
+
+
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -21,7 +28,7 @@ body{
 
 .card__title{
     font-size: 30px;
-    color: darkblue;
+    color: var(--color1);
     margin-bottom: 20px;
 }
 
@@ -40,4 +47,19 @@ body{
     background-image: linear-gradient(to top, #a18cd1,#fbc2eb 100%);
 
 }
+
+.card2{
+    background: #fff;
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, .5);
+}
+
+.card2__title{
+    font-size: 30px;
+    color: var(--colorAzul);
+    margin-bottom: 20px;
+}
+
 
