@@ -1,3 +1,7 @@
+:root{
+    --color: blue;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +22,7 @@
 
 @media print {
     .title{
-        color: steelblue;
+        color: var(--color);
         font-size: 5rem;
         text-align: center;
         font-family: cursive;
