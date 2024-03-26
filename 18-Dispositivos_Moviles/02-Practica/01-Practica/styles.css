@@ -80,3 +80,22 @@ body{
 .form__submit:hover{
     background-image: var(--gradient1);
 }
+
+
+@media screen and (max-width: 768px){
+    body{
+        padding: 60px 0;
+    }
+
+    .form{
+        width: 90%;
+    }
+
+    .form__title{
+        font-size: 1.5rem;
+    }
+
+    .form__submit{
+        width: 100%;
+    }
+}
